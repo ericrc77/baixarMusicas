@@ -1,0 +1,16 @@
+
+# Dependências principais para o app Baixar Músicas
+PyQt5>=5.15.0
+yt-dlp>=2024.4.9
+requests>=2.25.0
+google-api-python-client>=2.0.0
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+python-dotenv>=0.19.0
+beautifulsoup4>=4.9.0
+tqdm>=4.60.0
+pillow>=8.0.0
+ffmpeg-python>=0.2.0
+# ytmusicapi pode ser opcional, mas mantido se necessário
+ytmusicapi

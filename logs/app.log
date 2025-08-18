@@ -1,0 +1,16 @@
+2025-08-18 19:32:21,984 [ERROR] main: Erro ao iniciar o app: expected 'except' or 'finally' block (gui.py, line 60)
+Traceback (most recent call last):
+  File "C:\Users\eric\Downloads\baixarMusicas\main.py", line 14, in <module>
+    from baixar_musicas.gui import main
+  File "C:\Users\eric\Downloads\baixarMusicas\baixar_musicas\gui.py", line 60
+    		import ctypes
+    		^^^^^^
+SyntaxError: expected 'except' or 'finally' block
+2025-08-18 19:48:34,204 [ERROR] main: Erro ao iniciar o app: unexpected indent (gui.py, line 367)
+Traceback (most recent call last):
+  File "C:\Users\eric\Downloads\baixarMusicas\main.py", line 14, in <module>
+    from baixar_musicas.gui import main
+  File "C:\Users\eric\Downloads\baixarMusicas\baixar_musicas\gui.py", line 367
+    		self.buscar_btn.clicked.connect(self.on_buscar_artista)
+    	^
+IndentationError: unexpected indent

@@ -1,0 +1,19 @@
+{
+  "_comentarios": [
+    "Configuração do app Baixar Músicas.",
+    "Altere os valores conforme sua preferência.",
+    "'download_dir': pasta padrão para salvar arquivos.",
+    "'max_concurrent_downloads': número máximo de downloads simultâneos.",
+    "'timeout': tempo limite (segundos) para cada conexão.",
+    "'retries': número de tentativas em caso de falha.",
+    "'chunk_size_mb': tamanho do chunk de download em MB.",
+    "'log_file': caminho do arquivo de log.",
+    "Adicione novas opções conforme necessário."
+  ],
+  "download_dir": "downloads",
+  "max_concurrent_downloads": 3,
+  "timeout": 15,
+  "retries": 3,
+  "chunk_size_mb": 1,
+  "log_file": "config/app.log"
+}

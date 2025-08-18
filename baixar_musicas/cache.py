@@ -1,0 +1,2 @@
+# Cache local usando SQLite
+
